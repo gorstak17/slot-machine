@@ -1,9 +1,8 @@
-# Write the README.md file
-readme_content = '''# 🎰 Cool Slot Machine
+# 🎰 Slot Machine Game
 
 ![Slot Machine Demo](src/assets/slot-machine.png)
 
-> A fun, customizable fruit slot machine built with HTML, CSS & JavaScript.
+> A fun and colorful Slot Machine Game with a fruit-themed UI and engaging spin mechanics. Built with JavaScript, designed for browser-based play.
 
 
 ---
@@ -12,13 +11,11 @@ readme_content = '''# 🎰 Cool Slot Machine
 
 - [About](#about)  
 - [Features](#features)  
-- [Demo](#demo)  
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [Customization](#customization)  
 - [Project Structure](#project-structure)  
 - [Contributing](#contributing)  
-- [License](#license)  
 - [Author](#author)  
 
 ---
@@ -40,12 +37,6 @@ Perfect for practicing DOM manipulation, CSS animations, and simple game logic.
 - **Sound Effects** toggle  
 - **Responsive** for desktop & mobile  
 
----
-
-## 🎬 Demo
-
-![Play Demo](src/assets/slot-machine.png)  
-*(Press the green ▶️ spin button to play.)*
 
 ---
 
@@ -67,11 +58,6 @@ Perfect for practicing DOM manipulation, CSS animations, and simple game logic.
    npm start
    ```
    This will launch on `http://localhost:8080` by default.
-
-4. **Build** for production  
-   ```bash
-   npm run build
-   ```
 
 ---
 
@@ -124,27 +110,11 @@ testsLOTS/
 
 ---
 
-## 📜 License
-
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
-
----
-
 ## 👤 Author
 
 **Aleksandar Loncar**  
 - GitHub: [@yourusername](https://github.com/gorstak17)  
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
 
 ---
+# Enjoy spinning! 🎉
 
-Enjoy spinning! 🎉
-'''
-
-# Write to file
-dirpath = '/mnt/data'
-filepath = f'{dirpath}/README.md'
-with open(filepath, 'w') as f:
-    f.write(readme_content)
-
-print(f"README.md successfully written to {filepath}")
