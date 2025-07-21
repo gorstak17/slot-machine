@@ -113,7 +113,7 @@ testsLOTS/
 ## 👤 Author
 
 **Aleksandar Loncar**  
-- GitHub: [@yourusername](https://github.com/gorstak17)  
+- GitHub: [@gorstak17](https://github.com/gorstak17)  
 
 ---
 # Enjoy spinning! 🎉
