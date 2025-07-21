@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url('./assets/background-landscape.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 1590px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    margin: auto;
+}
+
+canvas {
+    width: min(100vw, 1590px, 180.68vh);
+    height: min(55.35vw, 880px, 100vh);
+}
+
+
+@media only screen and (orientation: portrait) {
+    body {
+        background-image: url('./assets/background-port.jpg');
+    }
+
+    
+    /*canvas {
+        width: min(100vw, 83.81vh);
+        height: min(119.31vw, 100vh);
+    }*/
+    canvas {
+        width: 100%;
+        height: 100%;
+    }
+}
