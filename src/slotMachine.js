@@ -905,12 +905,12 @@ function initializeApp(isPortrait) {
   });
 
   function increaseBet() {
-    betAmount += 0.01;
+    betAmount += 2.5;
     betText.text = `BET: ${betAmount.toFixed(2)}`;
   }
 
   function decreaseBet() {
-    betAmount = Math.max(0.01, betAmount - 0.01);
+    betAmount = Math.max(2.5, betAmount - 5);
     betText.text = `BET: ${betAmount.toFixed(2)}`;
   }
 
